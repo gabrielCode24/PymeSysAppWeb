@@ -148,7 +148,7 @@ class UsuariosLista extends Component {
 
           <IonList>
             <IonItem>
-              <IonLabel>Seleccione producto:</IonLabel>
+              <IonLabel>Seleccione usuario:</IonLabel>
               <IonSelect onIonChange={(e) => this.getUsuarioSeleccionado(e)} interface="action-sheet" interfaceOptions={customActionSheetOptions} cancelText="Cerrar lista">
                 {
                   this.state.usuarios.map((item) => {
